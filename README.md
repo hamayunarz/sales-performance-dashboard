@@ -18,7 +18,6 @@ Scope: Global sales data by region, customer segment, and product category
 Python: Data cleaning, exploration, and analysis using pandas, numpy, matplotlib, seaborn, plotly
 SQL: Data querying and transformation
 Power BI: Interactive dashboards and visual analytics
-📁 Project Structure
 sales-performance-analytics/
 ├── data/
 │   ├── raw/
@@ -33,5 +32,5 @@ sales-performance-analytics/
 ├── dashboards/
 ├── reports/
 └── requirements.txt
-Key changes and why:
+
 
