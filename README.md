@@ -26,9 +26,8 @@ sales-performance-analytics/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_analysis.ipynb
-│   └── 04_visualization.ipynb
-├── scripts/
-├── sql/
+|   |-- 04_eda.ipynb
+│   └── 05_visualization.ipynb
 ├── dashboards/
 ├── reports/
 └── requirements.txt
