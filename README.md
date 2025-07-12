@@ -28,6 +28,18 @@ sales-performance-analytics/
 │   ├── 03_analysis.ipynb
 |   |-- 04_eda.ipynb
 │   └── 05_visualization.ipynb
+├── sql/
+│   ├── queries/
+│   │   ├── 01_sales_summary.sql     
+│   │   ├── 02_top_customers.sql      
+│   │   ├── 03_regional_analysis.sql  
+│   │   ├── 04_category_analysis.sql  
+│   │   ├── 05_monthly_trends.sql    
+│   │   └── fix_column_types.sql
+│   ├── db_connect.py
+│   ├── run_all_queries.py           
+│   └── upload_csv_to_sql.py
+├── .env
 ├── dashboards/
 ├── reports/
 └── requirements.txt

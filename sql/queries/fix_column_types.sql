@@ -1,0 +1,7 @@
+ALTER TABLE cleaned_superstored
+    ALTER COLUMN "Order.Date" TYPE DATE USING "Order.Date"::DATE,
+    ALTER COLUMN "Ship.Date" TYPE DATE USING "Ship.Date"::DATE,
+    ALTER COLUMN "Customer.ID" TYPE VARCHAR,
+    ALTER COLUMN "Order.ID" TYPE VARCHAR,
+    ALTER COLUMN "Product.ID" TYPE VARCHAR,
+    ALTER COLUMN "Shipping_Time" TYPE INTEGER;
