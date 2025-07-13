@@ -1,47 +1,53 @@
 Global Superstore Sales Analytics
+Overview
 This project analyzes global superstore sales data from 2011 to 2014 using Python, SQL, and Power BI to uncover business insights and identify growth opportunities.
-Dataset Overview
-Source: Global Superstore Dataset
-Records: 51,290 transactions
-Timeframe: January 2011 - December 2014
-Customers: 4,873 unique customers
-Products: 10,292 unique products
-Key Metrics
-Total Sales: $12,642,905.00
-Total Profit: $1,467,457.29
-Profit Margin: 11.61%
-Average Order Value: $246.50
-Peak Month: November 2014
-Regional Performance
-Central: $2,822,399 (22.3%)
-South: $1,600,960 (12.7%)
-North: $1,248,192 (9.9%)
-Oceania: $1,100,207 (8.7%)
-Southeast Asia: $884,438 (7.0%)
-North Asia: $848,349 (6.7%)
-Technology Stack
-Python: pandas, numpy, matplotlib, seaborn, plotly
-SQL: data querying and transformation
-Power BI: interactive dashboards
+The dataset included:
+
+51,290 transactions
+4,873 unique customers
+10,292 unique products
+4 years of sales data across multiple regions
+
+Tools & Methods
+Tools: Python, SQL, Power BI
+Techniques: Data cleaning, statistical analysis, trend identification, interactive visualization
+Business Results
+
+Total sales of $12,642,905.00 with 11.61% profit margin
+Central region leads with $2,822,399 (22.3% of total sales)
+Peak sales month identified as November 2014
+Average order value of $246.50 across all transactions
+
+How I Did It
+Step 1: Data Preparation
+Used Python and SQL to clean and organize the raw sales data. Processed transactions, customer information, and product details across multiple regions.
+Step 2: Analysis
+Performed comprehensive analysis including:
+
+Regional performance comparison
+Monthly and seasonal trend analysis
+Customer segmentation by purchase behavior
+Product category profitability assessment
+
+Step 3: Insights & Dashboards
+Built interactive dashboards in Power BI and created visualizations using Python. Explored sales patterns, regional differences, and customer purchasing trends.
+Key Insights
+
+Central region generates highest revenue at $2,822,399 (22.3%)
+November 2014 represents peak sales performance
+South region follows with $1,600,960 (12.7%) in sales
+North Asia shows potential for growth at $848,349 (6.7%)
+Average order value indicates healthy transaction size
+Seasonal patterns reveal opportunities for targeted campaigns
+
 Project Structure
-sales-performance-analytics/
-├── data/
-│   ├── raw/
-│   └── processed/
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_analysis.ipynb
-│   ├── 04_eda.ipynb
-│   └── 05_visualization.ipynb
-├── sql/
-│   ├── queries/
-│   ├── db_connect.py
-│   ├── run_all_queries.py
-│   └── upload_csv_to_sql.py
-├── dashboards/
-├── reports/
-└── requirements.txt
+
+data/ (raw and processed sales data)
+notebooks/ (Python analysis and exploration)
+sql/ (database queries and transformations)
+dashboards/ (Power BI visualizations)
+reports/ (findings and recommendations)
+
 Getting Started
 
 Clone the repository
@@ -50,10 +56,3 @@ Set up database connection in .env file
 Run Jupyter notebooks in sequence
 Execute SQL queries for specific insights
 Open Power BI dashboards for interactive analysis
-
-Analysis Components
-Data exploration and cleaning
-Statistical analysis and trend identification
-Interactive visualizations
-SQL analytics for business questions
-Dashboard creation for decision support
