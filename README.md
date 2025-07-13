@@ -1,23 +1,29 @@
-# sales-performance-dashboard
-This project offers an in-depth analysis of global superstore sales data from 2014 to 2017. Using Python, SQL, and Power BI, the aim is to uncover valuable business insights, highlight growth opportunities, and improve profitability.
-
-🎯 Objectives
-
-Analyze four years of global sales data to identify trends and patterns
-Pinpoint the most profitable regions, product categories, and customer segments
-Create interactive dashboards to support data-driven decisions
-Recommend strategies to drive growth and reduce losses
-📊 Dataset
-
-Source: Global Superstore Dataset (via Kaggle)
-Size: 51,000+ records across 24 columns
-Timeframe: 2014–2017
-Scope: Global sales data by region, customer segment, and product category
-🛠️ Tech Stack
-
-Python: Data cleaning, exploration, and analysis using pandas, numpy, matplotlib, seaborn, plotly
-SQL: Data querying and transformation
-Power BI: Interactive dashboards and visual analytics
+Global Superstore Sales Analytics
+This project analyzes global superstore sales data from 2011 to 2014 using Python, SQL, and Power BI to uncover business insights and identify growth opportunities.
+Dataset Overview
+Source: Global Superstore Dataset
+Records: 51,290 transactions
+Timeframe: January 2011 - December 2014
+Customers: 4,873 unique customers
+Products: 10,292 unique products
+Key Metrics
+Total Sales: $12,642,905.00
+Total Profit: $1,467,457.29
+Profit Margin: 11.61%
+Average Order Value: $246.50
+Peak Month: November 2014
+Regional Performance
+Central: $2,822,399 (22.3%)
+South: $1,600,960 (12.7%)
+North: $1,248,192 (9.9%)
+Oceania: $1,100,207 (8.7%)
+Southeast Asia: $884,438 (7.0%)
+North Asia: $848,349 (6.7%)
+Technology Stack
+Python: pandas, numpy, matplotlib, seaborn, plotly
+SQL: data querying and transformation
+Power BI: interactive dashboards
+Project Structure
 sales-performance-analytics/
 ├── data/
 │   ├── raw/
@@ -26,22 +32,28 @@ sales-performance-analytics/
 │   ├── 01_data_exploration.ipynb
 │   ├── 02_data_cleaning.ipynb
 │   ├── 03_analysis.ipynb
-|   |-- 04_eda.ipynb
+│   ├── 04_eda.ipynb
 │   └── 05_visualization.ipynb
 ├── sql/
 │   ├── queries/
-│   │   ├── 01_sales_summary.sql     
-│   │   ├── 02_top_customers.sql      
-│   │   ├── 03_regional_analysis.sql  
-│   │   ├── 04_category_analysis.sql  
-│   │   ├── 05_monthly_trends.sql    
-│   │   └── fix_column_types.sql
 │   ├── db_connect.py
-│   ├── run_all_queries.py           
+│   ├── run_all_queries.py
 │   └── upload_csv_to_sql.py
-├── .env
 ├── dashboards/
 ├── reports/
 └── requirements.txt
+Getting Started
 
+Clone the repository
+Install dependencies: pip install -r requirements.txt
+Set up database connection in .env file
+Run Jupyter notebooks in sequence
+Execute SQL queries for specific insights
+Open Power BI dashboards for interactive analysis
 
+Analysis Components
+Data exploration and cleaning
+Statistical analysis and trend identification
+Interactive visualizations
+SQL analytics for business questions
+Dashboard creation for decision support
