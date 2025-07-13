@@ -1,4 +1,4 @@
-Global Superstore Sales Analytics
+Sales Performance Dashboard (Global Superstore Analytics)
 Overview
 This project analyzes global superstore sales data from 2011 to 2014 using Python, SQL, and Power BI to uncover business insights and identify growth opportunities.
 The dataset included:
