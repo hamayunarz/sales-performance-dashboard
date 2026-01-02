@@ -18,6 +18,25 @@ Central region leads with $2,822,399 (22.3% of total sales)
 Peak sales month identified as November 2014
 Average order value of $246.50 across all transactions
 
+Technical Implementation
+
+Data Processing:
+Cleaned and standardized 51,290 transaction records using Python (Pandas)
+SQL queries for regional aggregations and performance analysis
+Handled missing values and data type inconsistencies
+
+Analysis Approach:
+Regional sales comparison across Central, South, North Asia, and other markets
+Time-series analysis to identify seasonal patterns and peak periods
+Customer segmentation based on purchase frequency and value
+Product category profitability assessment
+
+Visualization:
+Interactive Power BI dashboard with drill-down capabilities
+Regional performance breakdown with comparative metrics
+Monthly and seasonal trend charts
+KPI cards tracking revenue, margin, and order volume
+
 How I Did It
 Step 1: Data Preparation
 Used Python and SQL to clean and organize the raw sales data. Processed transactions, customer information, and product details across multiple regions.
